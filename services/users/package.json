@@ -1,0 +1,20 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "Microservicio para la parte de usuarios",
+  "main": "users.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Antonio Sanmiguel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "md5": "^2.2.1",
+    "mysql": "^2.18.1",
+    "validator": "^13.0.0"
+  }
+}
